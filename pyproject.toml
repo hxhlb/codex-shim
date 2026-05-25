@@ -24,6 +24,12 @@ dependencies = [
   "aiohttp>=3.9",
 ]
 
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "pytest-asyncio>=0.23",
+]
+
 [project.urls]
 Homepage = "https://github.com/0xSero/codex-shim"
 Repository = "https://github.com/0xSero/codex-shim"
